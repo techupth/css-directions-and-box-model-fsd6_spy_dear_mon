@@ -1,26 +1,27 @@
 * {
-  box-sizing: border-box;
+  background: lightgray;
   padding: 0;
   margin: 0;
 }
-.container {
-  background-color: lightgray;
-  height: 100vw;
-  padding: 50px;
-}
 .box-1 {
-  height: 25%;
-  background-color: khaki;
+  height: 100vh;
+  width: 100vw;
+  margin: 16px;
+  border: 16px solid black;
+  background: crimson;
+  padding: 24px;
 }
+
 .box-2 {
-  height: 25%;
-  background-color: orange;
+  width: 100%;
+  height: 100%;
+  background: khaki;
 }
-.box-3 {
-  height: 50%;
-  background-color: cornflowerblue;
-}
-.box-4 {
-  height: 50%;
-  background-color: cornflowerblue;
+h2 {
+  background-color: khaki;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 72px;
+  padding: 30px;
 }

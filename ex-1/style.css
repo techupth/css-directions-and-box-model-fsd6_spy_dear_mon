@@ -1,1 +1,32 @@
 /* Start coding here */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: 'Sarabun', sans-serif;
+}
+
+header {
+  background-color: #92a9bd;
+  padding: 20px 20px;
+}
+main {
+  width: 100vw;
+}
+
+.container {
+  width: 50%;
+  border: solid;
+  background-color: #92a9bd;
+  margin: 20px;
+  padding: 10px;
+}
+
+img {
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+h2,
+p {
+  padding: 5px 10px;
+}

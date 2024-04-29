@@ -1,1 +1,38 @@
-/* Start coding here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: saraban, sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 130px;
+  background: #92aabd;
+}
+.nav-header {
+  margin-left: 55px;
+  margin-top: 52px;
+  margin-bottom: 55px;
+  color: #183b56;
+  font-size: 16px;
+}
+.main-box div {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.box-cafe {
+  padding: 1rem;
+  width: 536px;
+  height: 321px;
+  border: 3px solid #183b56;
+  margin-top: 170px;
+  margin-left: 55px;
+}
+.box-travel {
+  padding: 1rem;
+  width: 536px;
+  height: 321px;
+  border: 3px solid #183b56;
+}

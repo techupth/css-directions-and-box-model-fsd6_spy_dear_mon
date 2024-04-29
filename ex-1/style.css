@@ -1,1 +1,34 @@
-/* Start coding here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: saraban, sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  background: #92aabd;
+}
+.nav-header {
+  margin-left: 55px;
+  color: #183b56;
+  font-size: 32px;
+}
+.main-box div {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.box-cafe {
+  padding: 1rem;
+  width: 536px;
+  height: 321px;
+  border: 5px solid #183b56;
+}
+.box-travel {
+  padding: 1rem;
+  width: 536px;
+  height: 321px;
+  border: 5px solid #183b56;
+}
